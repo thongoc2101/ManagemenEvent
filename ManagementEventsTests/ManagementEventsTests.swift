@@ -2,7 +2,7 @@
 //  ManagementEventsTests.swift
 //  ManagementEventsTests
 //
-//  Ho Bui Phuoc - MSSV: 13110127
+//  Phan Thi Ngoc Cam - MSSV: 131100005
 //
 
 import XCTest

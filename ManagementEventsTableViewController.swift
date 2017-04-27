@@ -2,8 +2,8 @@
 //  ManagementEventsTableViewController.swift
 //  ManagementEvents
 //
-//  Created by Tran Van Tin on 4/26/17.
-//  Copyright © 2017 Tran Van Tin. All rights reserved.
+//  Created by Phan Thi Ngoc Cam on 4/26/17.
+//  Copyright © 2017 Phan Thi Ngoc Cam. All rights reserved.
 //
 
 import UIKit
@@ -39,7 +39,7 @@ class ManagementEventsTableViewController: UITableViewController {
         return eventLine.events.count
     }
 
-    // Đổ dữ liệu vào Cell
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath)
         
@@ -57,7 +57,7 @@ class ManagementEventsTableViewController: UITableViewController {
         return cell
     }
     
-    // Ten Section là ten ngay
+    
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let eventLine = eventLines[section]
         return eventLine.day
@@ -75,8 +75,6 @@ class ManagementEventsTableViewController: UITableViewController {
         }    
     }
 
-
-    // Ham di chuyen 1 su kien
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to toIndexPath: IndexPath) {
         let eventLine1 = eventLines[fromIndexPath.section]
         let eventLine2 = eventLines[toIndexPath.section]
@@ -87,7 +85,6 @@ class ManagementEventsTableViewController: UITableViewController {
 
     // MARK: - Navigation
     
-    //Ham dieu huong sang View
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             switch identifier {

@@ -1,8 +1,7 @@
 //
 //  AppDelegate.swift
 //  ManagementEvents
-//
-//  ho Bui Phuoc - MSSV: 13110127
+// Phan Thi Ngoc Cam MSSV: 13110005
 //
 
 import UIKit

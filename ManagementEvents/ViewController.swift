@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  ManagementEvents
 //
-//  Ho Bui Phuoc - MSSV: 13110127
 //
 
 import UIKit

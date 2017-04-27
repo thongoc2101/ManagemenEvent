@@ -2,7 +2,6 @@
 //  ManagementEventsUITests.swift
 //  ManagementEventsUITests
 //
-//  Ho Bui Phuoc - MSSV: 13110127
 //
 
 import XCTest
